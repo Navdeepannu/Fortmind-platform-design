@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type RefObject } from "react";
 import { InvestigationTimeline, type InvestigationStep } from "../shared/investigation-timeline";
 
 export interface PreviewCase {
@@ -21,7 +21,7 @@ interface CasePreviewProps {
   onClose: () => void;
   onPrevious?: () => void;
   onNext?: () => void;
-  returnFocusTo?: React.RefObject<HTMLElement | null>;
+  returnFocusTo?: RefObject<HTMLElement | null>;
 }
 
 /**

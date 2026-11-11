@@ -21,6 +21,7 @@
 | Integrations | [Integrations](docs/screens/integrations/README.md) | [Tool health](examples/integrations/tool-health.tsx) |
 | Reports | [Reports](docs/screens/reports/README.md) | [Metric card](examples/reports/metric-card.tsx) |
 | Settings | [Settings](docs/screens/settings/README.md) | [Setting row](examples/settings/setting-row.tsx) |
+| Knowledge (not yet captured) | [Open questions](docs/screens/knowledge/README.md) | Not scoped |
 
 The lifecycle timeline used by Home and Cases lives in [examples/shared/investigation-timeline.tsx](examples/shared/investigation-timeline.tsx).
 
