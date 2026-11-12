@@ -19,7 +19,7 @@ Improve one selected FortMind component in the **real application repository**. 
 - Make a **small, scoped change** and retain established app conventions.
 - Prefer existing React/TypeScript, Tailwind and shadcn/ui primitives if the app uses them.
 - Data must come from real app types/contracts. Do not blindly copy fixtures or hardcoded numbers from this handoff.
-- Use semantic design tokens for dark/light. Keep focus states, keyboard controls, responsive density and screen-reader labels.
+- Use semantic design tokens for dark/light. This handoff's FortMind brand swatch is `#30D398` (`oklch(0.7720123 0.1554456 163.0539)`) **identical in both themes**; inspect the production app's current palette and obtain approval before overwriting its tokens. On light backgrounds do not use this mint for small body text (only ~1.93:1 contrast on white); retain high-contrast foreground text. Green filled buttons should use dark foreground ink. Keep focus states, keyboard controls, responsive density and screen-reader labels.
 - Reuse existing components; extract primitives only where two or more screens genuinely need them.
 - Design for no data, loading, error, offline, permission-denied and long-content states as applicable.
 - Never add secrets, real customer data or identifiers to a commit or screenshot.
