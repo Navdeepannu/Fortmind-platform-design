@@ -27,7 +27,7 @@ The lifecycle timeline used by Home and Cases lives in [examples/shared/investig
 
 ## Design constraints
 
-- Preserve the client's current Vercel/Geist-inspired, **neutral-first** design direction and existing FortMind green accent.
+- Preserve the client's current Vercel/Geist-inspired, **neutral-first** design direction. The chosen FortMind brand green for this design handoff is **#30D398** (`oklch(0.7720123 0.1554456 163.0539)`) in **both dark and light modes**. This is a proposed design-system decision, not evidence that the client's production platform already uses it. Prefer semantic `--brand` tokens; keep neutral focus and status/verdict colors independent.
 - Keep the current information architecture; improve components without restarting the design.
 - Model **autonomous investigation** honestly: Plan → Collect → Analyze → review/close/fail. Do not invent “live” cases.
 - Use real domain data and existing API contracts. Show safe empty/loading/error states.
